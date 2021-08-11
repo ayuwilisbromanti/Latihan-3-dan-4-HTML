@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Biodata</title>
+    </head>
+    <body align="center">
+        <font size="5"><b>Biodata Saya</b></font>
+        <br>
+        <font size="5">
+        <table border="0" align="left">
+            
+            <tr>
+                <td align="left">
+                    <label for="nama">Nama</label>
+                </td>
+                <th>:</th>
+                <td align="left">
+                    <input type="text" size="20" name="nama" id="nama"/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label for="ttl">Tempat Tanggal Lahir</label>
+                </td>
+                <th>:</th>
+                <td align="left">
+                    <input type="text" size="20" name="ttl" id="ttl"/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Jurusan</td>
+                <th>:</th>
+                <td align="left">
+                    <select name="jurusan" id="jurusan">
+                        <option value=" ">Pilih Jurusan</option>
+                        <option value="rpl">Rekayasa Perangkat Lunak</option>
+                        <option value="tkj">Teknik Jaringan Komputer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <form>
+                        <label for="alamat">Alamat</label>
+                    </form>
+                </td>
+                <th>:</th>
+                <td align="left">
+                    <textarea name="alamat" cols="20" rows="4"></textarea><br/>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Jenis Kelamin</td>
+                <th>:</th>
+                <td align="left">
+                    <form>
+                        <input type="radio" name="gender" id="pria" value="Pria"/>
+                        <label for="gender">Pria</label>
+                        <form>
+                            <input type="radio" name="gender" id="wanita" value="Wanita"/>
+                            <label for="gender">Wanita</label>
+                        </form>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label for="agama" id="agama">Agama</label>
+                </td>
+                <th>:</th>
+                <td align="left">
+                    <select name="agama" id="agama">
+                        <option value="">Pilih Agama</option>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katholik">Katholik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <label for="tlpn">Nomor Telepon</label>
+                </td>
+                <th>:</th>
+                <td align="left">
+                    <input type="text" size="20" name="tlpn" id="tlpn"/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Hobi</td>
+                <th>:</th>
+                <td align="left">
+                    <form>
+                        <input type="checkbox" name="hobi[]" id="bacabuku" value="Baca Buku"/>
+                        <label for="bacabuku">Baca Buku</label>
+                        <input type="checkbox" name="hoby[]" id="bacamanhwa" value="Baca Manhwa"/>
+                        <label for="bacamanhwa">Baca Manhwa</label>
+                        <input type="checkbox" name="hoby[]" id="nonton" value="Nonton"/>
+                        <label for="nonton">Nonton Film</label>
+                    </form>
+                </td>
+            </tr>
+        </table>
+       </font>
+    </body>
+</html>
